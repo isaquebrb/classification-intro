@@ -21,7 +21,7 @@ man5 = [1, 0, 1]
 training_x = [woman1, woman2, woman3, woman4, woman5, man1, man2, man3, man4, man5]
 training_y = [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
 
-# train the "machine" with given data (x = persons, y = correct classification)
+# training the "machine" with given data (x = persons, y = correct classification)
 model = LinearSVC()
 model.fit(training_x, training_y)
 
