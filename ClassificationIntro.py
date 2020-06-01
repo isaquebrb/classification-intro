@@ -18,12 +18,12 @@ man4 = [0, 0, 0]
 man5 = [1, 0, 1]
 
 # 0 -> woman, 1 -> man
-training_x = [woman1, woman2, woman3, woman4, woman5, man1, man2, man3, man4, man5]
-training_y = [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+train_x = [woman1, woman2, woman3, woman4, woman5, man1, man2, man3, man4, man5]
+train_y = [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
 
-# training the "machine" with given data (x = persons, y = correct classification)
+# train the "machine" with given data (x = persons, y = correct classification)
 model = LinearSVC()
-model.fit(training_x, training_y)
+model.fit(train_x, train_y)
 
 # create random persons
 mystery1 = [1, 1, 1]
