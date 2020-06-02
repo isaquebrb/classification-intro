@@ -3,6 +3,8 @@ from sklearn.svm import LinearSVC
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 
+# predict between product bought or not
+
 # csv file containing data about people who bought product and if they accessed a page
 csv = "tracking.csv"
 

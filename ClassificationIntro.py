@@ -1,6 +1,8 @@
 from sklearn.svm import LinearSVC
 from sklearn.metrics import accuracy_score
 
+# predict between woman and man
+
 # Features (1 yes, 0 no)
 # long hair
 # thick voice
